@@ -3,7 +3,24 @@
 </template>
 
 <script>
+import "./index.css";
 export default {};
 </script>
 
-<style></style>
+<style>
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+</style>
