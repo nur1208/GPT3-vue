@@ -1,1 +1,4 @@
 - {DONE} creating vue project using vue-cil
+- {DONE} clean up src folder
+- {TODO} creating global style
+- {TODO} creating Navbar component 
