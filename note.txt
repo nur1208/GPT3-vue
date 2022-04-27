@@ -1,4 +1,7 @@
 - {DONE} creating vue project using vue-cil
 - {DONE} clean up src folder
 - {DONE} creating global style
-- {TODO} creating Navbar component 
+- {DONE} creating Navbar component 
+
+- note important now
+- {TODO} improve background color by adding gradient
