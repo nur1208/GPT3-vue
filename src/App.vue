@@ -2,6 +2,7 @@
   <div class="App">
     <div class="gradient__bg">
       <app-navbar />
+      <app-header />
     </div>
   </div>
 </template>
@@ -9,8 +10,9 @@
 <script>
 import "./index.css";
 import Navbar from "./components/Navbar/Navbar.vue";
+import Header from "./components/Header.vue";
 export default {
-  components: { "app-navbar": Navbar }
+  components: { "app-navbar": Navbar, "app-header": Header }
 };
 </script>
 
@@ -72,6 +74,12 @@ a {
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @-webkit-keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
@@ -90,6 +98,33 @@ a {
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
+  }
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+@media screen and (max-width: 700px) {
+  .section__margin {
+    margin: 4rem;
+  }
+
+  .section__padding {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+
+  .section__padding {
+    padding: 4rem 2rem;
   }
 }
 </style>

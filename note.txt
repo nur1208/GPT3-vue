@@ -2,6 +2,7 @@
 - {DONE} clean up src folder
 - {DONE} creating global style
 - {DONE} creating Navbar component 
+- {DONE} creating Header component
 
 - note important now
 - {TODO} improve background color by adding gradient
