@@ -7,6 +7,7 @@
     <brand />
     <what-gpt3 />
     <features />
+    <possibility />
   </div>
 </template>
 
@@ -17,13 +18,16 @@ import Header from "./components/Header.vue";
 import Brand from "./components/Brand/Brand.vue";
 import WhatGPT3 from "./components/WhatGPT3/WhatGPT3.vue";
 import Features from "./components/Features/Features.vue";
+import Possibility from "./components/Possibility.vue";
+
 export default {
   components: {
     "app-navbar": Navbar,
     "app-header": Header,
     Brand,
     "what-gpt3": WhatGPT3,
-    Features
+    Features,
+    Possibility
   }
 };
 </script>

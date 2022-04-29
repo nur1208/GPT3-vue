@@ -6,6 +6,7 @@
 - {DONE} creating Brand component
 - {DONE} creating WhatGPT3 and Feature components
 - {DONE} creating Features component
+- {DONE} creating possibility component
 
 - not important now
 - {TODO} improve background color by adding gradient
