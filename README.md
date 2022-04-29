@@ -1,6 +1,9 @@
-# qpt3-vue
+# Modern UI/UX GPT-3 With Vue
 
-> A Vue.js project
+### [Live Site](https://gpt-3-vue.vercel.app/)
+
+![Modern UI/UX GPT-3](https://i.ibb.co/TR5LW9z/image.png)
+
 
 ## Build Setup
 
