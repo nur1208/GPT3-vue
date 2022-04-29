@@ -5,6 +5,7 @@
 - {DONE} creating Header component
 - {DONE} creating Brand component
 - {DONE} creating WhatGPT3 and Feature components
+- {DONE} creating Features component
 
 - not important now
 - {TODO} improve background color by adding gradient
