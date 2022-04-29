@@ -3,6 +3,8 @@
 - {DONE} creating global style
 - {DONE} creating Navbar component 
 - {DONE} creating Header component
+- {DONE} creating Brand component
+- {DONE} creating WhatGPT3 and Feature components
 
-- note important now
+- not important now
 - {TODO} improve background color by adding gradient
