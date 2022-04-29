@@ -9,6 +9,7 @@
     <features />
     <possibility />
     <cta />
+    <app-blog />
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import WhatGPT3 from "./components/WhatGPT3/WhatGPT3.vue";
 import Features from "./components/Features/Features.vue";
 import Possibility from "./components/Possibility.vue";
 import CTA from "./components/CTA.vue";
+import Blog from "./components/Blog/Blog.vue";
 export default {
   components: {
     "app-navbar": Navbar,
@@ -29,7 +31,8 @@ export default {
     "what-gpt3": WhatGPT3,
     Features,
     Possibility,
-    cta: CTA
+    cta: CTA,
+    "app-blog": Blog
   }
 };
 </script>
