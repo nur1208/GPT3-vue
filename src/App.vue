@@ -10,6 +10,7 @@
     <possibility />
     <cta />
     <app-blog />
+    <app-footer />
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import Features from "./components/Features/Features.vue";
 import Possibility from "./components/Possibility.vue";
 import CTA from "./components/CTA.vue";
 import Blog from "./components/Blog/Blog.vue";
+import Footer from "./components/Footer.vue";
 export default {
   components: {
     "app-navbar": Navbar,
@@ -32,7 +34,8 @@ export default {
     Features,
     Possibility,
     cta: CTA,
-    "app-blog": Blog
+    "app-blog": Blog,
+    "app-footer": Footer
   }
 };
 </script>
